@@ -62,7 +62,7 @@ const Home = () => {
 
     try {
       const response = await axios.get(
-        `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=yes`
+        `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=yes`
       );
       setWeather(response.data);
     } catch (err) {
