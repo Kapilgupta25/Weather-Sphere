@@ -18,6 +18,10 @@ import { FiSearch } from "react-icons/fi";
 
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
+if (import.meta.env.DEV) {
+  console.log("API Key:", API_KEY); // See if it's showing up locally
+}
+
 const Home = () => {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
