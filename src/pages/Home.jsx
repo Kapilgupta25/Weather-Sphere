@@ -47,7 +47,7 @@ const Home = () => {
   };
 
   const getWeather = async () => {
-    if (!city) return;
+    if (!city) return setError("Please Enter City Name..");
 
     setLoading(true);
     setError("");
