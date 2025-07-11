@@ -16,7 +16,7 @@ import {
 } from "react-icons/wi";
 import { FiSearch } from "react-icons/fi";
 
-const API_KEY = "bf784a6485e345e7a46115618251105";
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
 const Home = () => {
   const [city, setCity] = useState("");
