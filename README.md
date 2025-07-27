@@ -2,6 +2,10 @@
 
 **Weather Sphere** is a responsive, user-friendly weather application that delivers **real-time weather updates**. Built using **React** and **Tailwind CSS**, it integrates the **WeatherAPI** to fetch live weather data based on user input.
 
+🔗 Live Demo: https://weather-sphere-amber.vercel.app/
+
+
+
 ---
 
 ## 🚀 Features
